@@ -4,7 +4,7 @@
 
 ## Состав репозитория
 
-opencart-selenium-tests/
+"opencart-selenium-tests/
 ├── docker-compose.yml
 ├── requirements.txt
 ├── pytest.ini
@@ -23,7 +23,7 @@ opencart-selenium-tests/
 ├── artifacts/
 │   └── screenshots/
 └── docs/
-    └── Отчет.docx
+    └── Отчет.docx"
 
 
 ## Что проверяют автотесты
@@ -110,8 +110,6 @@ allure serve allure-results
 При падении теста скриншот автоматически сохраняется в папку:
 
 artifacts/screenshots/
-
-В итоговом отчете оставлены пустые места под скриншоты. После локального запуска нужно вставить туда свои изображения: Docker, открытый OpenCart, результат `pytest`, Allure и GitHub-репозиторий.
 
 ## 6. Команды Docker
 
